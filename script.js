@@ -22,7 +22,7 @@ function encriptar(TextoEncriptar) {
         MensajeTexto2.style.display = "block";
         AreaTexto.value = "";
         MensajeEncriptado.value = ""; // Limpiar el área de texto encriptado
-        MensajeEncriptado.style.backgroundImage = "url('./Imagenes/Texto.png')"; // Mostrar imagen de fondo
+        MensajeEncriptado.style.backgroundImage = "url('Imagenes/Texto.png')"; // Mostrar imagen de fondo
         CaracterEspecial = true;
         return "";
     }
@@ -50,7 +50,7 @@ function BotonEncriptar() {
         CaracterEspecial=false;
         MensajeTexto.style.display = "block";
         MensajeTexto2.style.display = "block";
-        MensajeEncriptado.style.backgroundImage = "url('./Imagenes/Texto.png')";
+        MensajeEncriptado.style.backgroundImage = "url('Imagenes/Texto.png')";
     }else {
         mostrarMensajeSiVacio();
     }
@@ -64,7 +64,7 @@ function desencriptar(TextoDesencriptar) {
         MensajeTexto2.style.display = "block";
         AreaTexto.value = "";
         MensajeEncriptado.value = ""; // Limpiar el área de texto encriptado
-        MensajeEncriptado.style.backgroundImage = "url('./Imagenes/Texto.png')"; // Mostrar imagen de fondo
+        MensajeEncriptado.style.backgroundImage = "url('Imagenes/Texto.png')"; // Mostrar imagen de fondo
         CaracterEspecial = true;
         return "";
     }
@@ -92,7 +92,7 @@ function BotonDesencriptar() {
         CaracterEspecial=false;
         MensajeTexto.style.display = "block";
         MensajeTexto2.style.display = "block";
-        MensajeEncriptado.style.backgroundImage = "url('./Imagenes/Texto.png')";
+        MensajeEncriptado.style.backgroundImage = "url('Imagenes/Texto.png')";
     }else {
         mostrarMensajeSiVacio();
     }
@@ -113,7 +113,7 @@ function mostrarMensajeSiVacio() {
         MensajeTexto2.textContent = mensajeRecomendaciones;
         MensajeTexto.style.display = "block";
         MensajeTexto2.style.display = "block";
-        MensajeEncriptado.style.backgroundImage = "url('./Imagenes/Texto.png')"; // Mostrar imagen si el área de texto está vacía
+        MensajeEncriptado.style.backgroundImage = "url('Imagenes/Texto.png')"; // Mostrar imagen si el área de texto está vacía
     } else {
         MensajeTexto.style.display = "none";
         MensajeTexto2.style.display = "none";
