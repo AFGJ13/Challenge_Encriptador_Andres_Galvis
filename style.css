@@ -37,7 +37,7 @@ main{
 
 .MensajeEncriptado {
     background: var(--dark-blue);
-    background-image: url("./Imagenes/Texto.png");
+    background-image: url("Imagenes/Texto.png");
     background-repeat: no-repeat;
     border: none;
     background-position: top; 
